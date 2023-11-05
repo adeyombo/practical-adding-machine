@@ -2,4 +2,4 @@
 
 ![Screenshot](/screenshot.png?raw=true "screenshot.png")
 
-[Live Demo](https://practical-adding-machine.adebolaadeyombo.repl.co/)
+[Live Demo](https://practical-adding-machine.netlify.app/)
