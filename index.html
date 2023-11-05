@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Practical Adding Machine</title>
+</head>
+<body>
+    <main class="main">
+        <h2>Practical Adding Machine</h2>
+        <form class="form">
+            <fieldset>
+                <legend for="numbers">Numbers</legend>
+                <textarea name="numbers" id="numbers" cols="30" rows="10"></textarea>
+            </fieldset>
+
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <button id="get-sum-btn">
+                    Get Sum
+                </button>
+            </div>
+            <fieldset style="display: flex; justify-content: center; align-items: center;">
+                <label for="sum" style="color: #777">Total</label>
+                <input style="margin-left: 5px;" type="text" id="sum">
+            </fieldset>
+        </form>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
