@@ -1,1 +1,1 @@
-# practical-adding-machine
+# Practical Money Adding Machine

@@ -11,13 +11,11 @@ getSumBtn.onclick = (e) => {
 
     const numbers = numbersInput.value.split("\n").map(n => n.replace(/,/g, "")).filter(n => isNumeric(n)).map(n => Number(n));
 
-    console.log(numbers)
-
     let sum = 0;
 
     for (let i = 0; i < numbers.length; i++) {
         sum += numbers[i];
     }
 
-    total.value = sum;
+    total.value = sum.toFixed(2);
 }
